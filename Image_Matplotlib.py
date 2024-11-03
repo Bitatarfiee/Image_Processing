@@ -24,7 +24,8 @@ for i in range(18):
     plt.imshow(Xtrain[idx])
     plt.title("Class: {} ({})".format(label, classes[label]))
     plt.axis('off')
-fig.savefig("Classes.png")  #saving figure
+plt.savefig("Classes.png")  #saving figure
 plt.show()         #showing plot 
+
 
 
