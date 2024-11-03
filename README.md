@@ -42,4 +42,6 @@ import numpy as np
 - Change range of pixel values to [-1,1]
 - One hot encoding
 
-### Dependencies
+### libes 
+from tensorflow.keras.utils import to_categorical
+
